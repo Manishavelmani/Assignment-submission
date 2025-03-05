@@ -1,0 +1,127 @@
+ /* .fr2{
+    background: url('C:\Users\22CS052\personalpjt\lo.png');
+    background-repeat: no-repeat;
+    height: 600px;
+    padding: 3px;
+    width: 100%;
+    background-position: center;
+    margin-top: 90px;
+}
+body{
+    background-color: gray;
+}
+.fr3{
+    background-color:lavender;
+    
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 300px;
+    
+    
+}
+.fr1{
+    display: flex;
+    column-gap: 20px;
+    justify-items: center;
+    
+
+}
+.fr4{
+    padding: 10px;
+    height: 50px;
+    text-align: center;
+    margin-top: 60px;
+    border: none;
+} */
+/* General Body Styles */
+ .fr1{
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  .fr2 {
+    background: url('C:/Users/22CS052/personalpjt/lo.png') center/cover no-repeat; 
+    height: 750px;
+    padding: 3px;
+    width: 100%;
+    background-position: center;
+    background-size: cover; 
+   
+    position: relative;
+    color: aliceblue;
+    text-align: center;
+    
+    border-bottom: 10px solid #ddd; 
+  }
+  
+  
+    .fr1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+  }
+  
+  
+  .fr3 {
+    background-color: lavender;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 200px; 
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .fr3:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  .fr4 {
+    padding: 10px;
+    height: 50px;
+    text-align: center;
+    margin-top: 60px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .fr4:hover {
+    background-color: #0056b3; 
+  }
+  
+  
+  @media (max-width: 768px) {
+    .fr1 {
+      flex-direction: column; 
+      align-items: center;
+    }
+  
+    .fr3 {
+      width: 80%;
+      height: auto;
+      margin-top: 50px;
+    }
+  
+    .fr2 {
+      height: 400px; 
+    }
+  } 
+  
+    
+   

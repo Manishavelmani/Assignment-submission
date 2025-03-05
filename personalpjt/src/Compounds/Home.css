@@ -1,0 +1,42 @@
+.home3{
+    
+    background-image: url('C:\Users\22CS052\personalpjt\proj1.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 1000px;
+    height: 650px;
+    background-position: center;
+    
+
+}
+.home1{
+    
+    background-color:lightslategray;
+    color: whitesmoke;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    
+}
+.page{
+    display: flex;
+    justify-content: space-between;
+    background-color: ghostwhite;
+    padding: 5px;
+    height: 30px;
+    
+
+
+}
+.page1{
+    background: linear-gradient(to right,pink,lavender);
+    display: flex;
+    width: 1580px;
+    
+} 
+.des{
+    /* background-color:cornsilk; */
+    width: 500px;
+    border-radius: 20px;
+    margin-right: 20px;
+}

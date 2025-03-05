@@ -1,0 +1,69 @@
+.signup{
+  background-image: url('C:\Users\22CS052\personalpjt\lo.png'); 
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat; 
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-direction: column;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+
+
+form {
+  background-color:rgb(245, 245, 245,0.2);
+  padding: 30px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px; 
+  color: #181414;
+}
+
+ label {
+  font-size: 16px;
+  margin-bottom: 8px;
+  display: block; 
+   color: black; 
+} 
+
+input,
+select {
+  width:400px;
+  padding: 4px;
+  margin-bottom: 15px;
+  border: 1px solid #181414;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: darkviolet;
+}
+
+.success-message {
+  margin-top: 20px;
+  color: bisque;
+  font-size: 16px;
+}
+
+.error-message {
+  margin-top: 20px;
+  color: red;
+  font-size: 16px;
+}

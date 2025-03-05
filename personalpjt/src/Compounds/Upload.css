@@ -1,0 +1,23 @@
+.upload{
+    background-image: url('C:\Users\22CS052\personalpjt\lo.png'); 
+    background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat; 
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-direction: column;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+
+    
+}
+.upload1{
+    text-align: center;
+    
+}
+.des{
+    border-radius: 0px;
+    width:400px;
+}
